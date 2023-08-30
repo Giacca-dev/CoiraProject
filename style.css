@@ -43,3 +43,19 @@
 #PurgatorioGrid{
     box-shadow: 0rem 0rem 1rem rgb(195 188 147);
 }
+
+.main-card-blur{
+    backdrop-filter: brightness(0.25);
+}
+
+.p-0{
+    padding: 0% !important;
+}
+
+.text-overlay-main{
+    width: 50% !important;
+    font-size: x-large;
+    margin-right: 0 !important;
+    color: #ebebeb;
+    border-radius: var(--bs-border-radius-lg);
+}
