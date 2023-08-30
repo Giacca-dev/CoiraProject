@@ -2,12 +2,44 @@
     text-align: center;
 }
 
-.preview{
+#preview{
     min-height: 100vh;
+}
+
+#songs, #history{
+    transition: all 0.75s ease-out;
 }
 
 #songs:hover, #history:hover{
     transition: all 0.75s ease-out;
-    box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.5) ;
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.5);
     border-radius: var(--bs-border-radius-lg) ;
+}
+
+.album-overlay-grid-item:hover {
+    transition: all 1s ease-out;
+    box-shadow: 0 0.25rem 1rem rgb(8 78 159);
+    border-radius: var(--bs-border-radius-lg) ;
+}
+
+.album-overlay-grid-item {
+    transition: all 1s ease-out;
+    box-shadow: 0rem 0rem 1rem rgb(8 78 159);
+    border-radius: 100%;
+}
+
+#RicordiGrid{
+    box-shadow: 0rem 0rem 1rem rgb(252 201 0);
+}
+
+#HeisenbergGrid{
+    box-shadow: 0rem 0rem 1rem rgb(31 161 88);
+}
+
+#DjangoGrid{
+    box-shadow: 0rem 0rem 1rem rgb(234 9 6);
+}
+
+#PurgatorioGrid{
+    box-shadow: 0rem 0rem 1rem rgb(195 188 147);
 }
