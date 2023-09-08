@@ -53,7 +53,15 @@
 }
 
 .shape-fill {
-    fill: #0D6EFD;
+    fill: #084e9f;
+}
+
+.divider-standard{
+
+}
+
+.divider-reverse{
+ transform: rotate(180deg);
 }
 
 
