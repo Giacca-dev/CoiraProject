@@ -2,6 +2,10 @@
     text-align: center;
 }
 
+.fullwidth{
+    width: 100% !important;
+}
+
 #preview{
     min-height: 85vh;
 }
@@ -58,6 +62,11 @@
 
 .divider-standard{
 
+}
+
+#divider-line {
+    border: var(--bs-border-width) var(--bs-border-style) #084e9f !important;
+    box-shadow: 0 0rem 2rem 8px rgb(8 78 159) !important;
 }
 
 .divider-reverse{
