@@ -23,14 +23,7 @@
     border-radius: var(--bs-border-radius-lg);
 }
 
-.album-overlay-grid-item:hover {
-    transition: all 1s ease-out;
-    box-shadow: 0 0.25rem 1rem rgb(8 78 159);
-    border-radius: var(--bs-border-radius-lg) ;
-}
-
 .album-overlay-grid-item {
-    transition: all 1s ease-out;
     box-shadow: 0rem 0rem 1rem rgb(8 78 159);
     border-radius: 100%;
 }
@@ -86,6 +79,10 @@ h1, h2, h3, h4 {
             color: #ebebeb;
             border-radius: var(--bs-border-radius-lg);
         }
+
+        body{
+            text-align: center !important;
+        }
    }
     @media screen and (min-width: 768px) {
         .text-overlay-main{
@@ -94,6 +91,10 @@ h1, h2, h3, h4 {
             margin-right: 0 !important;
             color: #ebebeb;
             border-radius: var(--bs-border-radius-lg);
+        }
+
+        body{
+            text-align: center !important;
         }
    }
     @media screen and (min-width: 1024px) {
@@ -108,10 +109,18 @@ h1, h2, h3, h4 {
             color: #ebebeb;
             border-radius: var(--bs-border-radius-lg);
         }
+
+        body{
+            text-align: var(--bs-body-text-align) !important;
+        }
    }
     @media screen and (min-width: 1200px) {
         #title-main-page{
             font-size: xxx-large;
+        }
+
+        body{
+            text-align: var(--bs-body-text-align) !important;
         }
 
         .text-overlay-main{
