@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito:ital,wght@1,300&family=REM:wght@700&display=swap');
+                
+
 .center{
     text-align: center;
 }
@@ -60,19 +63,19 @@
     fill: #084e9f;
 }
 
-.divider-standard{
-
-}
-
 #divider-line {
     border: var(--bs-border-width) var(--bs-border-style) #084e9f !important;
     box-shadow: 0 0rem 2rem 8px rgb(8 78 159) !important;
 }
 
-.divider-reverse{
- transform: rotate(180deg);
+h1, h2, h3, h4 {
+    font-family: 'REM', sans-serif;
 }
 
+
+#title-main-page{
+    font-family: 'Dancing Script', sans-serif;    
+}
 
 
     @media screen and (min-width: 480px) {
@@ -94,6 +97,10 @@
         }
    }
     @media screen and (min-width: 1024px) {
+        #title-main-page{
+            font-size: xxx-large;
+        }
+
         .text-overlay-main{
             width: 50% !important;
             font-size: large;
@@ -103,6 +110,10 @@
         }
    }
     @media screen and (min-width: 1200px) {
+        #title-main-page{
+            font-size: xxx-large;
+        }
+
         .text-overlay-main{
             width: 50% !important;
             font-size: x-large;
