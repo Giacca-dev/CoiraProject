@@ -24,8 +24,8 @@
 }
 
 .album-overlay-grid-item {
+    border-radius: var(--bs-border-radius-lg) ;
     box-shadow: 0rem 0rem 1rem rgb(8 78 159);
-    border-radius: 100%;
 }
 
 #RicordiGrid{
